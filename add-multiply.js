@@ -12,10 +12,10 @@ function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
     if (typeof chairQuantity == 'string' || typeof tableQuantity == 'string' || typeof bedQuantity == 'string') {
         return 'enter valid number.'
     }
-    if (chairQuantity <= 0 || tableQuantity <= 0 || bedQuantity <=0 ) {
+    if (chairQuantity <= 0 || tableQuantity <= 0 || bedQuantity <= 0) {
         return 'Please, enter Positive numbers.';
-     } 
-    
+    }
+
     const perChairWood = 3;
     const perTableWood = 10;
     const perBedWood = 50;
@@ -28,4 +28,4 @@ function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
 }
 
 const totalWoodNeed = woodCalculator(8, 'sic', 3);
-console.log('Total Wood Needed:',totalWoodNeed,'cft.');
+console.log('Total Wood Needed:', totalWoodNeed, 'cft.');

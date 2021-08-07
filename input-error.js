@@ -1,4 +1,3 @@
-
 // Two numbers add
 function add(num1, num2) {
     const total = num1 + num2;
@@ -17,5 +16,3 @@ function multiply(num1, num2) {
 
 var totalMultiply = multiply(3, 33);
 console.log(totalMultiply);
-
-
